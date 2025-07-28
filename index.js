@@ -108,12 +108,30 @@ let ucetambolunenler,
 
 // 3a çözümü
 
-/* kodlar buraya */
+let enBuyuk = sayilar[0]
+for(let i = 0; i < sayilar.length; i++ ){
+  if (sayilar[i] > enBuyuk ) {
+  enBuyuk = sayilar[i]
+  }
+}
+console.log(enBuyuk)
+let enKucuk = sayilar[0]
+for (let i =0; i < sayilar.length; i++){
+  
+  enKucuk = sayilar[i]
+} 
+console.log(enKucuk)
 
 // 3b çözümü:
 
-/* kodlar buraya */
+let uceTamBolununler = [];
 
+sayilar.forEach(function(sayi) {
+  if (sayi % 3 === 0)
+  uceTamBolununler.push(sayi)
+})
+
+console.log(uceTamBolununler)
 // 3c çözümü:
 
 /* kodlar buraya */
