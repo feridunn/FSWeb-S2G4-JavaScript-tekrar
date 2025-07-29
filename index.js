@@ -142,7 +142,16 @@ console.log(toplam)
 
 // 3d çözümü
 
-/* kodlar buraya */
+  besyuzdenkucuksayilar = [];
+
+let sonuc = sayilar.filter(function (hedef) {
+  if (hedef < 500) {
+    return hedef += besyuzdenkucuksayilar
+  }
+});
+console.log(sonuc);
+
+
 
 // 3e çözümü
 
