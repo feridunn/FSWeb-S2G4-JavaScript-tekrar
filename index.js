@@ -155,7 +155,11 @@ console.log(sonuc);
 
 // 3e çözümü
 
-/* kodlar buraya */
+siralisayilar = [...sonuc];
+siralisayilar.sort((a, b) =>  a-b);
+console.log(siralisayilar)
+
+
 
 // 3f çözümü
 
