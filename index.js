@@ -134,7 +134,11 @@ sayilar.forEach(function(sayi) {
 console.log(uceTamBolununler)
 // 3c çözümü:
 
-/* kodlar buraya */
+  ucebolunenlerintoplami = uceTamBolununler 
+  let toplam = ucebolunenlerintoplami.reduce((acc,current) => acc + current , 0)
+  
+
+console.log(toplam)
 
 // 3d çözümü
 
