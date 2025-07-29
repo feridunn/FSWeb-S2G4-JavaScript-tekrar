@@ -176,7 +176,7 @@ for (let i = 0; i < sayilar.length; i++) {
 
 console.log(sayac);
 
-let tekraredensayilar = [];
+ tekraredensayilar = [];
 
 for (let sayi in sayac) {
   if (sayac[sayi] > 1) {
